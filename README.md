@@ -9,15 +9,12 @@ Best Regards.
 Assembly
 --------
 Sources 
-
-Youtube         
-Moshix Channel - Installing and running a disassembler in MVS 3.8 TK4 - M78 &
-Mainframe Concepts - MVS Tk4 "Hello World" Assembler Program
-             
-Documentation  http://www.jaymoseley.com/hercules/for_mvt/ifox_mvt.htm#OptionDifferences
+- Youtube Moshix Channel - Installing and running a disassembler in MVS 3.8 TK4 - M78 
+- Youtube Mainframe Concepts - MVS Tk4 "Hello World" Assembler Program
+- Documentation  http://www.jaymoseley.com/hercules/for_mvt/ifox_mvt.htm#OptionDifferences
              
 Modules
-
+--------
 HELLOW  - hello world example inspired by Mainframe Concepts 
     
 JASMTEST 
