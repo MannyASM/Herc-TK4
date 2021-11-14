@@ -16,7 +16,13 @@ Sources
 Modules
 --------
 HELLOW  - hello world module by Mainframe Concepts 
-    
+
+HELLOW_Listing
+- JASMCLG uses IFOX00 to assemble HELLOW
+- one of the PARM options is LIST
+- LIST generates this file via the SYSPRINT DD name
+- The program listing is piped into DSN=HERC01.TEST.LIST for further observation
+
 JASMTEST [J(ob) ASM(assembly) Test]
 - leverages ASMFCLG proc to assemble, link and execute an inline program (HELLOW)  
     
@@ -29,9 +35,3 @@ JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
 
 JASMCLG_Job_Output [J(ob) ASM(assembly) CLG(Compile, Link, Go) - Job Output]
 - this is the job run results
-
-HELLOW_Listing
-- JASMCLG uses IFOX00 to assemble HELLOW
-- one of the PARM options is LIST
-- LIST generates this file via the SYSPRINT DD name
-- The program listing is piped into DSN=HERC01.TEST.LIST for further observation
