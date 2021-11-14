@@ -31,3 +31,12 @@ J(ob) ASM(assembly) CLG(Compile, Link, Go)
 - this allows us to control some of the output files such as listings
 - HELLOW is a very simple program that outputs a message to operator console
 - now this can be used to study assembly instructions, compile options, etc.
+
+JASMCLG_Job_Output
+J(ob) ASM(assembly) CLG(Compile, Link, Go) - JOb Output
+- this is the job run results
+
+HELLOW_Listing
+- JASMCLG assembled HELLOW with a couple options, one of them being LIST
+- LIST generate this file
+
