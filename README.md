@@ -15,22 +15,19 @@ Sources
              
 Modules
 --------
-HELLOW  - hello world example inspired by Mainframe Concepts 
+HELLOW  - hello world module by Mainframe Concepts 
     
-JASMTEST 
-J(ob) ASM(assembly) Test
+JASMTEST [J(ob) ASM(assembly) Test]
 - leverages ASMFCLG proc to compile and execute inline HELLOW assembler program  
     
-JASMCLG 
-J(ob) ASM(assembly) CLG(Compile, Link, Go)
+JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
 - this job looks for assembler program HELLOW located in HERC01.TEST.ASM
 - it shows how we can assemble, link and execute HELLOW as separate steps
 - this allows us to control some of the output files such as listings
 - HELLOW is a very simple program that outputs a message to operator console
 - now this can be used to study assembly instructions, compile options, etc.
 
-JASMCLG_Job_Output
-J(ob) ASM(assembly) CLG(Compile, Link, Go) - JOb Output
+JASMCLG_Job_Output [J(ob) ASM(assembly) CLG(Compile, Link, Go) - JOb Output]
 - this is the job run results
 
 HELLOW_Listing
@@ -38,4 +35,3 @@ HELLOW_Listing
 - one of the PARM options is LIST
 - LIST generates this file via the SYSPRINT DD name
 - The program listing is piped into DSN=HERC01.TEST.LIST for further observation
-
