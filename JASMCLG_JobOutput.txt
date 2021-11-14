@@ -1,0 +1,308 @@
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000         11        AAAAAAAAAA    SSSSSSSSSS
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000       111       AAAAAAAAAAAA  SSSSSSSSSSSS
+               HH        HH  EE            RR        RR  CC        CC  00      0000     1111       AA        AA  SS        SS
+              HH        HH  EE            RR        RR  CC            00     00 00       11       AA        AA  SS
+             HH        HH  EE            RR        RR  CC            00    00  00       11       AA        AA  SSS
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00       11       AAAAAAAAAAAA   SSSSSSSSS
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00       11       AAAAAAAAAAAA    SSSSSSSSS
+          HH        HH  EE            RR    RR      CC            00 00     00       11       AA        AA           SSS
+         HH        HH  EE            RR     RR     CC            0000      00       11       AA        AA            SS
+        HH        HH  EE            RR      RR    CC        CC  000       00       11       AA        AA  SS        SS
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000    1111111111   AA        AA  SSSSSSSSSSSS
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     1111111111   AA        AA   SSSSSSSSSS
+
+
+
+                    JJJJJJJJJJ   2222222222        11       777777777777                               AAAAAAAAAA
+                    JJJJJJJJJJ  222222222222      111       77777777777                               AAAAAAAAAAAA
+                        JJ      22        22     1111       77      77                                AA        AA
+                        JJ                22       11              77                                 AA        AA
+                        JJ                22       11             77                                  AA        AA
+                        JJ               22        11            77                                   AAAAAAAAAAAA
+                        JJ             22          11            77                                   AAAAAAAAAAAA
+                        JJ           22            11            77                                   AA        AA
+                  JJ    JJ         22              11            77                                   AA        AA
+                  JJ    JJ       22                11            77                                   AA        AA
+                  JJJJJJJJ      222222222222   1111111111        77                                   AA        AA
+                   JJJJJJ       222222222222   1111111111        77                                   AA        AA
+
+
+****A  START  JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217  START  A****
+****A  START  JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217  START  A****
+****A  START  JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217  START  A****
+****A  START  JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217  START  A****
+                                                J E S 2   J O B   L O G
+
+
+01.11.49 JOB  217  IEF677I WARNING MESSAGE(S) FOR JOB HERC01AS ISSUED
+01.11.49 JOB  217  $HASP373 HERC01AS STARTED - INIT  1 - CLASS A - SYS TK4-
+01.11.49 JOB  217  IEF403I HERC01AS - STARTED - TIME=01.11.49
+01.11.50 JOB  217  IEFACTRT - Stepname  Procstep  Program   Retcode
+01.11.50 JOB  217  HERC01AS   ASM                 IFOX00    RC= 0000
+01.11.50 JOB  217  HERC01AS   LKED                IEWL      RC= 0000
+01.11.50 JOB  217  +HELLO WORLD!
+01.11.50 JOB  217  HERC01AS   GO                  PGM=*.DD  RC= 0000
+01.11.50 JOB  217  IEF404I HERC01AS - ENDED - TIME=01.11.50
+01.11.50 JOB  217  $HASP395 HERC01AS ENDED
+
+
+------ JES2 JOB STATISTICS ------
+
+
+ 14 NOV 21 JOB EXECUTION DATE
+
+
+        87 CARDS READ
+
+
+       218 SYSOUT PRINT RECORDS
+
+
+         0 SYSOUT PUNCH RECORDS
+
+
+      0.00 MINUTES EXECUTION TIME
+    1     //HERC01AS  JOB (BAL),                                                  JOB  217
+          //      'TEST ASM CODE',                                                00000200
+          //      CLASS=A,                                                        00000308
+          //      MSGCLASS=A,                                                     00000408
+          //      TIME=(1440),                                                    00000500
+          //      MSGLEVEL=(1,1),                                                 00000600
+          //      NOTIFY=HERC01,                                                  00000700
+          //            USER=HERC01,PASSWORD=            GENERATED BY GDL
+          ***                                                                     00000800
+          ***----------------------------------------------------------------     00000906
+          *** ASSEMBLE                                                            00001002
+          ***  DATASETS                                                           00001106
+          ***     SYSIN      ASSEMBLER SOURCE PROGRAM                             00001206
+          ***                                                                     00001306
+          ***     SYSLIB     MACROS AND COPY MEMBERS                              00001406
+          ***                ONE OR MORE CONCATENATED PARTITIONED DATA SETS       00001506
+          ***                80-BYTE FIXED-LENGTH RECORDS                         00001606
+          ***                                                                     00001706
+          ***     ASMAOPT    ASSEMBLER OPTIONS                                    00001806
+          ***                                                                     00001906
+          ***     SYSLIN     IF ONE OF THE OBJECT(OMF), OBJECT(XOBJ) OR           00002006
+          ***     SYSGO      OBJECT(GOFF) OPTIONS ARE ACTIVE                      00002106
+          ***                SYSLIN OR SYSGO MUST BE DEFINED AS 80-BYTES FIXED    00002206
+          ***                LENGTH RECS IN SEQ DS OR PDS MEMBER                  00002306
+          ***                                                                     00002406
+          ***     SYSPUNCH   OBJECT(DECK) OPTION                                  00002506
+          ***                DEFINE SAME AS SYSLIN/SYSGO                          00002606
+          ***                                                                     00002706
+          ***     SYSPRINT   LIST OPTION, ASSY LISTING IS WRITTEN TO SYSPRINT     00002806
+          ***                DEFINE 121 TO 133 BYTE FIXED-LENGTH RECORDS OR       00002906
+          ***                125 TO 137 BYTE VARIABLE-LENGTH RECORDS WITH         00003006
+          ***                EITHER ASA OR MACHINE CONTROL CHARACTERS             00003106
+          ***                LRECL=133 FOR FIXED-LENGTH                           00003206
+          ***                LRECL=137 FOR VARIABLE-LENGTH IF LIST(133)           00003306
+          ***                CAN BE ALLOCATED TO SYSOUT, PDS MEMBER OF SEQ DS     00003406
+          ***                                                                     00003506
+          ***      SYSTERM   TERM OPTION, ASSEMBLY MESSAGES ARE WRITTEN HERE      00003606
+          ***                SHOULD ALWAYS BE DEFINED                             00003706
+          ***                                                                     00003806
+          ***      SYSDATA   ADATA OPTION                                         00003906
+          ***                RECORDS WRITTENT TO SYSDATA                          00004006
+          ***                DEFINE AS VARIABLE LENGTH, SEQ DS                    00004106
+          ***                AT LEAST 8188 BYTES                                  00004206
+          ***                                                                     00004306
+          ***      SYSUT1    WORK FILES                                           00004406
+          ***      SYSUT2                                                         00004506
+          ***      SYSUT3                                                         00004606
+          ***                                                                     00004706
+          ***      SOURCE: HTTP://WWW.TACHYONSOFT.COM/TXAG.HTM                    00004806
+          ***                                                                     00004906
+          ***----------------------------------------------------------------     00005006
+    2     //ASM     EXEC PGM=IFOX00,                                              00005104
+          //         PARM='OBJECT,LIST,NODECK',REGION=4096K                       00005204
+    3     //SYSLIB   DD  DISP=SHR,DSN=SYS1.MACLIB,DCB=BLKSIZE=27920               00005302
+    4     //         DD  DISP=SHR,DSN=SYS1.AMODGEN                                00005402
+    5     //SYSIN    DD  DISP=SHR,DSN=HERC01.TEST.ASM(HELLOW)                     00005503
+    6     //SYSTERM  DD  SYSOUT=*                                                 00005602
+    7     //SYSPUNCH DD  DUMMY                                                    00005706
+    8     //SYSUT1   DD  DSN=&&SYSUT1,UNIT=SYSDA,SPACE=(1700,(600,100)),          00005802
+          //             SEP=(SYSLIB)                                             00005902
+    9     //SYSUT2   DD  DSN=&&SYSUT2,UNIT=SYSDA,SPACE=(1700,(300,50)),           00006002
+          //             SEP=(SYSLIB,SYSUT1)                                      00006102
+   10     //SYSUT3   DD  DSN=&&SYSUT3,UNIT=SYSDA,SPACE=(1700,(300,50))            00006202
+   11     //SYSGO    DD  DSN=&&OBJSET,UNIT=SYSDA,SPACE=(80,(200,50)),             00006306
+          //             DISP=(NEW,PASS)                                          00006406
+   12     //SYSPRINT DD  DSN=HERC01.TEST.LIST,                                    00006506
+          //             DISP=(NEW,CATLG,DELETE),                                 00006606
+          //             SPACE=(80,(200,50)),                                     00006706
+          //             UNIT=SYSDA,                                              00006806
+          //             DCB=(RECFM=FBM,LRECL=133,BLKSIZE=1463)                   00006907
+          ***                                                                     00007006
+          ***------------------------------------------------                     00007102
+          *** LINK                                                                00007202
+          ***------------------------------------------------                     00007302
+   13     //LKED     EXEC PGM=IEWL,PARM=(LIST,MAP,XREF,LET,NCAL,RENT),            00007404
+          //             COND=(4,LT,ASM)                                          00007502
+   14     //SYSLIN   DD  DSN=&&OBJSET,DISP=(OLD,DELETE)                           00007602
+   15     //         DD  DDNAME=SYSIN                                             00007702
+   16     //SYSLMOD  DD  DISP=SHR,DSN=HERC01.TEST.LOADLIB(HELLOW)                 00007802
+   17     //SYSUT1   DD  DSN=&&SYSUT1,UNIT=(SYSDA,SEP=(SYSLIN,SYSLMOD)),          00007902
+          //             SPACE=(1024,(50,20))                                     00008002
+   18     //SYSPRINT DD  SYSOUT=*                                                 00008102
+          ***                                                                     00008203
+          ***------------------------------------------------                     00008303
+          *** EXECUTE                                                             00008403
+          ***------------------------------------------------                     00008503
+   19     //GO       EXEC PGM=*.LKED.SYSLMOD,COND=((8,LT,ASM),(4,LT,LKED))        00008603
+ STMT NO. MESSAGE
+-
+   19     IEF686I DDNAME REFERRED TO ON DDNAME KEYWORD IN PRIOR STEP WAS NOT RESOLVED
+IEF236I ALLOC. FOR HERC01AS ASM
+IEF237I 148  ALLOCATED TO SYSLIB
+IEF237I 248  ALLOCATED TO
+IEF237I 271  ALLOCATED TO SYSIN
+IEF237I 240  ALLOCATED TO SYS00002
+IEF237I JES2 ALLOCATED TO SYSTERM
+IEF237I DMY  ALLOCATED TO SYSPUNCH
+IEF237I 140  ALLOCATED TO SYSUT1
+IEF237I 190  ALLOCATED TO SYSUT2
+IEF237I 170  ALLOCATED TO SYSUT3
+IEF237I 180  ALLOCATED TO SYSGO
+IEF237I 281  ALLOCATED TO SYSPRINT
+IEF142I HERC01AS ASM - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   SYS1.MACLIB                                  KEPT          *--------9
+IEF285I   VOL SER NOS= MVSRES.
+IEF285I   SYS1.AMODGEN                                 KEPT          *--------0
+IEF285I   VOL SER NOS= MVSDLB.
+IEF285I   HERC01.TEST.ASM                              KEPT          *--------2
+IEF285I   VOL SER NOS= PUB011.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB00217.SO0101                         SYSOUT
+IEF285I   SYS21318.T011149.RA000.HERC01AS.SYSUT1       DELETED       *-------26
+IEF285I   VOL SER NOS= WORK00.
+IEF285I   SYS21318.T011149.RA000.HERC01AS.SYSUT2       DELETED       *--------9
+IEF285I   VOL SER NOS= WORK03.
+IEF285I   SYS21318.T011149.RA000.HERC01AS.SYSUT3       DELETED       *--------8
+IEF285I   VOL SER NOS= WORK01.
+IEF285I   SYS21318.T011149.RA000.HERC01AS.OBJSET       PASSED        *--------4
+IEF285I   VOL SER NOS= WORK02.
+IEF287I   HERC01.TEST.LIST                             NOT CATLGD  2 *--------5
+IEF287I   VOL SER NOS= PUB012.
+IEF373I STEP /ASM     / START 21318.0111
+IEF374I STEP /ASM     / STOP  21318.0111 CPU    0MIN 00.20SEC SRB    0MIN 00.02SEC VIRT  2212K SYS   196K
+************************************************************************************************************************************
+*     1. Jobstep of job: HERC01AS    Stepname: ASM         Program name: IFOX00     Executed on 14.11.21 from 01.11.49 to 01.11.50 *
+*         elapsed time  00:00:00,35                      CPU-Identifier:  TK4-           Page-in:      0                           *
+*             CPU time  00:00:00,22               Virtual Storage used:   2212K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,22   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      0                                                                           *
+*     148.......9 248.......0 271.......2 240.......0 DMY.......0 DMY.......0 140......26 190.......9 170.......8 180.......4      *
+*     281.......5                                                                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,36                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR HERC01AS LKED
+IEF237I 180  ALLOCATED TO SYSLIN
+IEF237I DMY  ALLOCATED TO
+IEF237I 241  ALLOCATED TO SYSLMOD
+IEF237I 240  ALLOCATED TO SYS00004
+IEF237I 140  ALLOCATED TO SYSUT1
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF142I HERC01AS LKED - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   SYS21318.T011149.RA000.HERC01AS.OBJSET       DELETED       *--------5
+IEF285I   VOL SER NOS= WORK02.
+IEF285I   HERC01.TEST.LOADLIB                          KEPT          *--------9
+IEF285I   VOL SER NOS= PUB010.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   SYS21318.T011149.RA000.HERC01AS.SYSUT1       DELETED       *--------0
+IEF285I   VOL SER NOS= WORK00.
+IEF285I   JES2.JOB00217.SO0102                         SYSOUT
+IEF373I STEP /LKED    / START 21318.0111
+IEF374I STEP /LKED    / STOP  21318.0111 CPU    0MIN 00.04SEC SRB    0MIN 00.01SEC VIRT   260K SYS   164K
+************************************************************************************************************************************
+*     2. Jobstep of job: HERC01AS    Stepname: LKED        Program name: IEWL       Executed on 14.11.21 from 01.11.50 to 01.11.50 *
+*         elapsed time  00:00:00,09                      CPU-Identifier:  TK4-           Page-in:      0                           *
+*             CPU time  00:00:00,05               Virtual Storage used:    260K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,05   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      0                                                                           *
+*     180.......5 DMY.......0 241.......9 240.......0 140.......0 DMY.......0                                                      *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,08                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR HERC01AS GO
+IEF237I 241  ALLOCATED TO PGM=*.DD
+IEF142I HERC01AS GO - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   HERC01.TEST.LOADLIB                          KEPT          *--------0
+IEF285I   VOL SER NOS= PUB010.
+IEF373I STEP /GO      / START 21318.0111
+IEF374I STEP /GO      / STOP  21318.0111 CPU    0MIN 00.01SEC SRB    0MIN 00.00SEC VIRT     8K SYS   156K
+************************************************************************************************************************************
+*     3. Jobstep of job: HERC01AS    Stepname: GO          Program name: PGM=*.DD   Executed on 14.11.21 from 01.11.50 to 01.11.50 *
+*         elapsed time  00:00:00,01                      CPU-Identifier:  TK4-           Page-in:      0                           *
+*             CPU time  00:00:00,01               Virtual Storage used:      8K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,01   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      0                                                                           *
+*     241.......0                                                                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,01                                             *
+************************************************************************************************************************************
+IEF375I  JOB /HERC01AS/ START 21318.0111
+IEF376I  JOB /HERC01AS/ STOP  21318.0111 CPU    0MIN 00.25SEC SRB    0MIN 00.03SEC
+
+ F64-LEVEL LINKAGE EDITOR OPTIONS SPECIFIED LIST,MAP,XREF,LET,NCAL,RENT
+          DEFAULT OPTION(S) USED -  SIZE=(231424,55296)
+
+
+
+                                                CROSS REFERENCE TABLE
+
+
+  CONTROL SECTION                       ENTRY
+
+    NAME    ORIGIN  LENGTH                NAME   LOCATION     NAME   LOCATION     NAME   LOCATION     NAME   LOCATION
+  HELLO         00      84
+
+
+ ENTRY ADDRESS       00
+
+ TOTAL LENGTH        88
+****HELLOW    NOW REPLACED IN DATA SET
+AUTHORIZATION CODE IS         0.
+**MODULE HAS BEEN MARKED REENTERABLE, AND REUSABLE.
+                 HH        HH  EEEEEEEEEEEE  RRRRRRRRRRR    CCCCCCCCCC     00000000         11        AAAAAAAAAA    SSSSSSSSSS
+                HH        HH  EEEEEEEEEEEE  RRRRRRRRRRRR  CCCCCCCCCCCC   0000000000       111       AAAAAAAAAAAA  SSSSSSSSSSSS
+               HH        HH  EE            RR        RR  CC        CC  00      0000     1111       AA        AA  SS        SS
+              HH        HH  EE            RR        RR  CC            00     00 00       11       AA        AA  SS
+             HH        HH  EE            RR        RR  CC            00    00  00       11       AA        AA  SSS
+            HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRRR  CC            00   00   00       11       AAAAAAAAAAAA   SSSSSSSSS
+           HHHHHHHHHHHH  EEEEEEEE      RRRRRRRRRRR   CC            00  00    00       11       AAAAAAAAAAAA    SSSSSSSSS
+          HH        HH  EE            RR    RR      CC            00 00     00       11       AA        AA           SSS
+         HH        HH  EE            RR     RR     CC            0000      00       11       AA        AA            SS
+        HH        HH  EE            RR      RR    CC        CC  000       00       11       AA        AA  SS        SS
+       HH        HH  EEEEEEEEEEEE  RR       RR   CCCCCCCCCCCC   0000000000    1111111111   AA        AA  SSSSSSSSSSSS
+      HH        HH  EEEEEEEEEEEE  RR        RR   CCCCCCCCCC     00000000     1111111111   AA        AA   SSSSSSSSSS
+
+
+
+                    JJJJJJJJJJ   2222222222        11       777777777777                               AAAAAAAAAA
+                    JJJJJJJJJJ  222222222222      111       77777777777                               AAAAAAAAAAAA
+                        JJ      22        22     1111       77      77                                AA        AA
+                        JJ                22       11              77                                 AA        AA
+                        JJ                22       11             77                                  AA        AA
+                        JJ               22        11            77                                   AAAAAAAAAAAA
+                        JJ             22          11            77                                   AAAAAAAAAAAA
+                        JJ           22            11            77                                   AA        AA
+                  JJ    JJ         22              11            77                                   AA        AA
+                  JJ    JJ       22                11            77                                   AA        AA
+                  JJJJJJJJ      222222222222   1111111111        77                                   AA        AA
+                   JJJJJJ       222222222222   1111111111        77                                   AA        AA
+
+
+****A   END   JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217   END   A****
+****A   END   JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217   END   A****
+****A   END   JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217   END   A****
+****A   END   JOB  217  HERC01AS  TEST ASM CODE         ROOM        1.11.50 AM 14 NOV 21  PRINTER1  SYS TK4-  JOB  217   END   A****
+
