@@ -27,7 +27,7 @@ JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
 - HELLOW is a very simple program that outputs a message to operator console
 - can be used to further study assembly instructions and parm options
 
-JASMCLG_Job_Output [J(ob) ASM(assembly) CLG(Compile, Link, Go) - JOb Output]
+JASMCLG_Job_Output [J(ob) ASM(assembly) CLG(Compile, Link, Go) - Job Output]
 - this is the job run results
 
 HELLOW_Listing
