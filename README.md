@@ -22,7 +22,7 @@ JASMTEST [J(ob) ASM(assembly) Test]
     
 JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
 - this job looks for assembly program HELLOW located in HERC01.TEST.ASM
-- it shows how we can assemble, link and execute HELLOW as separate steps
+- it shows how we can assemble, link and execute HELLOW in separate job steps
 - this allows control of some of the output files such as listings
 - HELLOW is a very simple program that outputs a message to operator console
 - can be used to further study assembly instructions and parm options
