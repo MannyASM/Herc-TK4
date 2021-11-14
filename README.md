@@ -23,9 +23,6 @@ HELLOW_Listing
 - LIST generates this file via the SYSPRINT DD name
 - The program listing is piped into DSN=HERC01.TEST.LIST for further observation
 
-JASMTEST [J(ob) ASM(assembly) Test]
-- leverages ASMFCLG proc to assemble, link and execute an inline program (HELLOW)  
-    
 JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
 - this job looks for assembly program HELLOW located in HERC01.TEST.ASM
 - it shows how we can assemble, link and execute HELLOW in separate job steps
@@ -35,3 +32,6 @@ JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
 
 JASMCLG_Job_Output [J(ob) ASM(assembly) CLG(Compile, Link, Go) - Job Output]
 - this is the job run results
+
+JASMTEST [J(ob) ASM(assembly) Test]
+- leverages ASMFCLG proc to assemble, link and execute an inline program (HELLOW)  
