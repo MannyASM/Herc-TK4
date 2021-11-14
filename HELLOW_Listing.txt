@@ -1,0 +1,51 @@
+1                                               EXTERNAL SYMBOL DICTIONARY                                      PAGE    1
+-SYMBOL   TYPE  ID   ADDR  LENGTH LDID                                                            ASM 0201 23.57 11/13/21
+0HELLO     SD  0001 000000 000084
+1                                                                                                               PAGE    2
+-  LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                       ASM 0201 23.57 11/13/21
+0000000                                1 HELLO   CSECT                            CONTROL SECTION                00000100
+                             00000     2         USING HELLO,15                                                  00000200
+ 000000 90EC D00C      0000C           3         STM   14,12,12(13)               SAVE REGISTERS                 00000300
+ 000004 41C0 F03C      0003C           4         LA    12,SAVEA                   R12 POINTS TO THIS SAVEAREA    00000400
+ 000008 50D0 F040      00040           5         ST    13,SAVEA+4                 SAVE ADDR OF SAVEA OF PREVPGM  00000500
+ 00000C 50C0 D008      00008           6         ST    12,8(,13)                  STORE CURRENT SAVEAREA         00000600
+ 000010 18DC                           7         LR    13,12                      R13 POINTS TO CUR SAVE AREA    00000700
+ 000012 18CF                           8         LR    12,15                      USE R12 AS BASE REG            00000800
+                                       9         DROP  15                         DROP R15 AS BASE REG           00000900
+                             00000    10         USING HELLO,12                   DEFINE R12 AS BASE REG         00001000
+
+                                      12 SAYIT   WTO   'HELLO WORLD!',ROUTCDE=(1) SEND MSG TO CONSOLE            00001200
+ 000014                               13+         CNOP  0,4                                                      09800002
+ 000014 4510 C02C      0002C          14+SAYIT    BAL   1,IHB0001A                        BRANCH AROUND MESSAGE  09850002
+ 000018 0010                          15+         DC    AL2(16)             TEXT LENGTH                          13200002
+ 00001A 8000                          16+         DC    B'1000000000000000' MCS FLAGS                            13250002
+ 00001C C8C5D3D3D640E6D6              17+         DC    C'HELLO WORLD!'                                          13350002
+ 000028 0000                          18+         DC    B'0000000000000000' DESCRIPTOR CODES                     13450002
+ 00002A 8000                          19+         DC    B'1000000000000000' ROUTING CODES                        13500002
+ 00002C                               20+IHB0001A DS    0H                                                       15850002
+ 00002C 0A23                          21+         SVC   35                                                       15950002
+ 00002E 58D0 C040      00040          22         L     13,SAVEA+4                 PREP TO EXIT                   00001300
+ 000032 98EC D00C      0000C          23         LM    14,12,12(13)               RESTORE REGS                   00001400
+ 000036 1BFF                          24         SR    15,15                      ZERO OUT RETURN CODE           00001500
+ 000038 07FE                          25         BR    14                                                        00001600
+
+ 00003C                               27 SAVEA   DS 18F                                                          00001800
+                                      28         END                                                             00001900
+1                                                  CROSS-REFERENCE                                              PAGE    3
+-SYMBOL    LEN   VALUE   DEFN    REFERENCES                                                       ASM 0201 23.57 11/13/21
+0HELLO    00001 00000000 00001  00002 00010
+ IHB0001A 00002 0000002C 00020  00014
+ SAVEA    00004 0000003C 00027  00004 00005 00022
+1                                                  ASSEMBLER DIAGNOSTICS AND STATISTICS                         PAGE    4
+-                                                                                                 ASM 0201 23.57 11/13/21
+0NO STATEMENTS FLAGGED IN THIS ASSEMBLY
+ HIGHEST SEVERITY WAS    0
+ OPTIONS FOR THIS ASSEMBLY
+   ALIGN, ALOGIC, BUFSIZE(STD), NODECK, ESD, FLAG(0), LINECOUNT(55), LIST, NOMCALL, YFLAG, WORKSIZE(2097152)
+   NOMLOGIC, NONUMBER, OBJECT, NORENT, RLD, NOSTMT, NOLIBMAC, NOTERMINAL, NOTEST, XREF(SHORT)
+   SYSPARM()
+ WORK FILE BUFFER SIZE/NUMBER =32758/ 1
+ TOTAL RECORDS READ FROM SYSTEM INPUT         19
+ TOTAL RECORDS READ FROM SYSTEM LIBRARY     1064
+ TOTAL RECORDS PUNCHED                         4
+ TOTAL RECORDS PRINTED                        51
