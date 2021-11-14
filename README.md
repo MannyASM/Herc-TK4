@@ -37,6 +37,8 @@ J(ob) ASM(assembly) CLG(Compile, Link, Go) - JOb Output
 - this is the job run results
 
 HELLOW_Listing
-- JASMCLG assembled HELLOW with a couple options, one of them being LIST
-- LIST generate this file
+- JASMCLG uses IFOX00 to assemble HELLOW
+- one of the PARM options is LIST
+- LIST generates this file via the SYSPRINT DD name
+- The program listing is piped into DSN=HERC01.TEST.LIST for further observation
 
