@@ -1,6 +1,6 @@
 # Herc-TK4
 
-These are various modules that explore assembly and other dev languages utilizing the Hercules TK4 platform.
+These are various modules that explore assembly utilizing the Hercules TK4 platform.
 Thank you to all who have shared and are sharing their passion for IBM mainframe development.
 Special thanks to Moshix and Jay Moseley.
 
@@ -18,14 +18,14 @@ Modules
 HELLOW  - hello world module by Mainframe Concepts 
     
 JASMTEST [J(ob) ASM(assembly) Test]
-- leverages ASMFCLG proc to compile and execute inline HELLOW assembler program  
+- leverages ASMFCLG proc to assemble, link and execute an inline program (HELLOW)  
     
 JASMCLG [J(ob) ASM(assembly) CLG(Compile, Link, Go)]
-- this job looks for assembler program HELLOW located in HERC01.TEST.ASM
+- this job looks for assembly program HELLOW located in HERC01.TEST.ASM
 - it shows how we can assemble, link and execute HELLOW as separate steps
-- this allows us to control some of the output files such as listings
+- this allows control of some of the output files such as listings
 - HELLOW is a very simple program that outputs a message to operator console
-- now this can be used to study assembly instructions, compile options, etc.
+- can be used to further study assembly instructions and parm options
 
 JASMCLG_Job_Output [J(ob) ASM(assembly) CLG(Compile, Link, Go) - JOb Output]
 - this is the job run results
