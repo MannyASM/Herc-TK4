@@ -1,4 +1,4 @@
-# Herc-TK4
+# Herc-TK4 (HLASM)
 
 These are various modules that explore assembly utilizing the Hercules TK4 platform.
 Thank you to all who have shared and are sharing their passion for IBM mainframe development.
